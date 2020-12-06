@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+{%load static %}
+
+
+
+ {% block content %}
+ <div class="mt-5">
+ <div class="text-center">
+ <img src="{% static 'core/images/brijeshformal.jpg' %}" alt="ProfilePic" class="img-thumbnail" width="250px" height="150px">
+ </div>
+ <div class="text-white">
+ <h1 class="font-weight-bold st-font ">Hello, </h1>
+ <div class="px-4" style="line-height:2rem;">
+ <p style="text-indent:100px;">
+ 
+ I am <b class="text-warning"> Brijesh  </b>  from Uttar Pradesh Currently I am Working on Alobha Technology as a Android and ios Developer  I have done multiple project major and minor and different technologies like Python Programminmg Language and Django Web Framework html, csss, Bootstrap, etc. <b class="text-warning"> Development tools - Visual Studio Code, Pycharm, Netbreans, Xampp,</b></p>
+ <p>
+ since earning my bachelor's degree in internet and web development from <b class="text-warning"> Dr. Abdul Kalam Technical  University  </b> and Cerification from Incapp Institute from Greater Noida The Projects are  like e-commerce website, blog, etc. and My Hobbies are Comptetive Programming and Development.  
+ </p>
+
+
+ </div>
+ </div>
+ <div class="text-center">
+ <a href="{%url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+ <a href="{%url 'contact' %}" class="btn btn-outline-danger my-3">Contact</a>
+ </div>
+ </div> 
+{% endblock content %}
